@@ -1,0 +1,131 @@
+body, html {
+    height:100%;
+    margin:0px;
+}
+
+.heroimage {
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+}
+
+.signin-outer {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.signin-inner {
+    width:400px;
+    margin-top:5px;
+    border: solid 1px rgb(221, 221, 221);
+    padding-left:20px;
+    padding-right:30px;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.signin-inner h1 {
+    font-family:arial;
+    font-weight:normal;
+    line-height:10px;
+    font-size:32px;
+}
+
+.signin-inner label {
+    font-family:arial;
+    font-size:15px;
+    line-height:35px;
+}
+
+.signin-inner input[type=textarea] {
+    font-size:16px;
+    padding:5px;
+    width:100%;
+    margin-bottom:20px;
+}
+
+.signin-inner input[type=password] {
+    font-size:16px;
+    padding:5px;
+    width:100%;
+    margin-bottom:25px;
+}
+
+.signin-inner input[type=button] {
+    font-size:14px;
+    background-color:#ffca4d;
+    border:gray 1px solid;
+    border-radius:2px;
+    width:103%;
+    padding:7px;
+    margin-bottom:20px;
+}
+
+a.signinpw {
+    font-family:arial;
+    font-size:16px;
+    text-decoration: none;
+    margin-left:200px;
+}
+
+.signin-inner a:link {
+    font-family:arial;
+    font-size:16px;
+    text-decoration: none;
+}
+
+.create {
+    margin-top:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.create p {
+    font-family: arial;
+    font-size:17px;
+    text-align: center;
+    border-bottom:1px gray solid;
+    line-height:0.1px;
+    background-color:white;
+    width:400px;
+}
+
+.create span {
+    font-family: arial;
+    font-size:17px;
+    text-align: center;
+    background-color:white;
+    padding:10px;
+}
+
+.create input[type=button] {
+    font-size:14px;
+    border:gray 1px solid;
+    border-radius:2px;
+    padding:7px;
+    width:425px;
+    margin-top:5px;
+}
+
+footer {
+    margin-top:50px;
+}
+
+footer hr {
+    width:100%;
+}
+
+footer p {
+    font-family:arial;
+    font-size:13px;
+    text-align: center;
+    padding:10px;
+}
+
+footer a {
+    text-decoration: none;
+    padding:15px;
+}
